@@ -1,2 +1,5 @@
 #/usr/local/bin/python3
-print('hello')
+hi='hello'
+def testfun():
+	print('#'*50)
+
