@@ -1,34 +1,36 @@
-import time
+# -*- coding: utf-8 -*-
+import time,pickle
 all_money=[1000]
 def income():
     try:
-        money=int(input('请输入金额'))
+        money=int(input(u'请输入金额'))
     except (ValueError,ZeroDivisionError):
-        print('无效输入')
+        print(u'无效输入')
     else:
-        state=input('说明：')
+        state=input(u'说明：')
         all_money.append(money)
     finally:
         write_date(all_money[-1],state)
 def spending():
     try:
-        money=int(input('请输入金额'))
+        money=int(input(u'请输入金额'))
     except (ValueError,ZeroDivisionError):
-        print('无效输入')
+        print(u'无效输入')
     else:
         money=money*(-1)
-        state=input('说明：')
+        state=input(u'说明：')
         all_money.append(money)
     finally:
+        type(all_money[-1])
         write_date(all_money[-1],state)
 def view_account():
-    with open('/root/account.txt') as fobj:
-        fobj.read()
-def write_date(money,state):
-    date = time.ctime()
-    list=[date,money,state]
-    with open('/root/account.txt','a') as fobj:
-        fobj.write(list)
+    with open('./account.txt','b') as fobj:
+        print(pickle.load(fobj))
+def write_date(insert_data,state):
+        date = time.ctime()
+        list=(date,insert_data,state)
+        with open('./account.txt','ab') as fobj:
+             pickle.dump(list,fobj,0)
 def manual():
     cmds={'0':income,'1':spending,'2':view_account}
     display="""
@@ -43,4 +45,5 @@ def manual():
         print('输入错误，请重新输入.')
     cmds[choice]()
 if __name__ == '__main__':
-    manual()
+#    manual()
+    income()
