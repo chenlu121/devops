@@ -1,0 +1,2 @@
+文档合并
+paste a.txt b.txt >c.txt
