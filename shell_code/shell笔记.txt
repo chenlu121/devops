@@ -1,2 +1,4 @@
 文档合并
 paste a.txt b.txt >c.txt
+查询b文件中不包含a文件的内容
+cat b|grep -v -f a
