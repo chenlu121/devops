@@ -3,3 +3,8 @@ paste a.txt b.txt >c.txt
 查询b文件中不包含a文件的内容
 cat b|grep -v -f a
 diff a.txt b.txt |grep '<'|cut -d ' ' -f 2
+tr用法
+1)大小写替换
+cat a.txt|tr 'a-z' 'A-Z'
+2)删除字符或符合
+cat a.txt|tr -d '\n'
