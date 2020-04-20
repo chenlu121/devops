@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+shell_code/转发_ 脚本/HPUX_ignite.sh
+shell_code/转发_ 脚本/ignite_server.sh
+shell_code/转发_ 脚本/mksysb_.sh.txt
+shell_code/转发_ 脚本/nim_create_client.sh
+shell_code/转发_ 脚本/nim_create_master.sh
