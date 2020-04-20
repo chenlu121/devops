@@ -1,0 +1,264 @@
+------------------------------------------------------------
+
+Policy Name:       BKMS_nbubk11_svc_MSDPFile_3M
+
+  Policy Type:         Standard
+  Active:              yes
+  Effective date:      10/28/2014 15:43:50
+  Client Compress:     no
+  Follow NFS Mounts:   no
+  Cross Mount Points:  no
+  Collect TIR info:    no
+  Block Incremental:   no
+  Mult. Data Streams:  no
+  Client Encrypt:      no
+  Checkpoint:          no
+  Policy Priority:     0
+  Max Jobs/Policy:     Unlimited
+  Disaster Recovery:   0
+  Collect BMR info:    no
+  Residence:           BKMS_nbubk11_svc_vtl01
+  Volume Pool:         BKMS
+  Server Group:        *ANY*
+  Keyword:             (none specified)
+  Data Classification:       -
+  Residence is Storage Lifecycle Policy:    no
+  Application Discovery:      no
+  Discovery Lifetime:      0 seconds
+  ASC Application and attributes: (none defined)
+
+  Granular Restore Info:  no
+  Ignore Client Direct:  no
+  Use Accelerator:  no
+  HW/OS/Client:  Linux         RedHat2.6.18  lxbj1nbubk11m4
+                 Linux         RedHat2.6.18  lxbj1nbubk11m3
+                 Linux         RedHat2.6.18  lxbj1nbubk11m5
+                 Linux         RedHat2.6.18  lxbj1nbubk11m6
+                 Linux         RedHat2.6.18  lxbj1nbubk11m7
+                 Linux         RedHat2.6.18  lxbj1nbubk11m8
+                 Linux         RedHat2.6.18  lxbj1nbubk11m10
+                 Linux         RedHat2.6.18  lxbj1nbubk11m11
+                 Linux         RedHat2.6.18  lxbj1nbubk11m12
+                 Linux         RedHat2.6.18  lxbj1nbubk11m13
+                 Linux         RedHat2.6.18  lxbj1nbubk11m14
+                 Linux         RedHat2.6.18  lxbj1nbubk11m15
+                 Linux         RedHat2.6.18  lxbj1nbubk11m16
+                 Linux         RedHat2.6.18  lxbj1nbubk11m17
+                 Linux         RedHat2.6.18  lxbj1nbubk11m18
+                 Linux         RedHat2.6.18  lxbj1nbubk11m19
+                 Linux         RedHat2.6.18  lxbj1nbubk11m20
+                 Linux         RedHat2.6.18  lxbj1nbubk11m21
+                 Linux         RedHat2.6.18  lxbj1nbubk11m22
+                 Linux         RedHat2.6.18  lxbj1nbubk11m23
+                 Linux         RedHat2.6.18  lxbj1nbubk11m24
+                 Linux         RedHat2.6.18  lxbj1nbubk11m25
+                 Linux         RedHat2.6.18  lxbj1nbubk11m26
+                 Linux         RedHat2.6.18  lxbj1nbubk11m27
+                 Linux         RedHat2.6.18  lxbj1nbubk11m28
+                 Linux         RedHat2.6.18  lxbj1nbubk11m29
+                 Linux         RedHat2.6.18  lxbj1nbubk11m30
+                 Linux         RedHat2.6.18  lxbj1nbubk11m31
+                 Linux         RedHat2.6.18  lxbj1nbubk11m9
+
+  Include:  /home/ap/nbu/databases/catalogshadow
+            /home/ap/nbu/databases/spa
+            /home/ap/nbu/databases/datacheck
+            /home/ap/nbu/etc
+            /home/ap/nbu/var
+            /usr/openv/lib/ost-plugins/mtstrm.conf
+            /usr/openv/lib/ost-plugins/pd.conf
+
+  Schedule:              BKMS_nbubk11_svc_MSDPFile_full
+    Type:                Full Backup
+    Frequency:           every 1 day
+     Excluded Dates----------
+        No specific exclude dates entered
+        No exclude days of week entered
+    Synthetic:           0
+    Checksum Change Detection: 0
+    PFI Recovery:        0
+    Maximum MPX:         1
+    Retention Level:     5 (3 months)
+    Number Copies:       1
+    Fail on Error:       0
+    Residence:           (specific storage unit not required)
+    Volume Pool:         (same as policy volume pool)
+    Server Group:        (same as specified for policy)
+    Residence is Storage Lifecycle Policy:         0
+    Daily Windows:
+          Sunday     10:02:00  -->  Sunday     12:02:00
+          Monday     10:02:00  -->  Monday     12:02:00
+          Tuesday    10:02:00  -->  Tuesday    12:02:00
+          Wednesday  10:02:00  -->  Wednesday  12:02:00
+          Thursday   10:02:00  -->  Thursday   12:02:00
+          Friday     10:02:00  -->  Friday     12:02:00
+          Saturday   10:02:00  -->  Saturday   12:02:00
+
+------------------------------------------------------------
+
+Policy Name:       BKMS_nbubk11_svc_errorlog
+
+  Policy Type:         Standard
+  Active:              yes
+  Effective date:      10/28/2014 15:43:50
+  Client Compress:     no
+  Follow NFS Mounts:   no
+  Cross Mount Points:  no
+  Collect TIR info:    no
+  Block Incremental:   no
+  Mult. Data Streams:  no
+  Client Encrypt:      no
+  Checkpoint:          no
+  Policy Priority:     0
+  Max Jobs/Policy:     Unlimited
+  Disaster Recovery:   0
+  Collect BMR info:    no
+  Residence:           BKMS_nbubk11_svc_vtl01
+  Volume Pool:         BKMS
+  Server Group:        *ANY*
+  Keyword:             (none specified)
+  Data Classification:       -
+  Residence is Storage Lifecycle Policy:    no
+  Application Discovery:      no
+  Discovery Lifetime:      0 seconds
+  ASC Application and attributes: (none defined)
+
+  Granular Restore Info:  no
+  Ignore Client Direct:  no
+  Use Accelerator:  no
+  HW/OS/Client:  RS6000        AIX6          nbubk11_svc
+
+  Include:  /usr/openv/netbackup/db/error/
+            /var/veritas/jobtest/jobtest.sh
+            /home/backupfile/policy/policy.sh
+            /home/backupfile/media/media.sh
+            /var/nmon/delete.sh
+            /usr/openv/netbackup/bin/support/health_check.sh
+            /var/perf/pm/bin/pmcfg
+            /home/backupfile/hosts_update/hosts_update_master.sh
+            /var/veritas/suspendtest/suspendtest.sh
+            /usr/openv/netbackup/bin/parent_end_notify
+            /usr/openv/netbackup/bin/bp.conf
+            /usr/openv/script/
+            /var/veritas/drf_ftp.sh
+            /var/veritas/supendtest.sh
+            /var/veritas/crontab.bak
+            /usr/openv/java/auth.conf
+
+  Schedule:              BKMS_nbubk11_svc_errorlog_full
+    Type:                Full Backup
+    Calendar sched: Enabled
+     Included Dates-----------
+        Saturday, Week 1
+        Saturday, Week 2
+        Saturday, Week 3
+        Saturday, Week 4
+        Saturday, Week 5
+     Excluded Dates----------
+        No specific exclude dates entered
+        No exclude days of week entered
+    Synthetic:           0
+    Checksum Change Detection: 0
+    PFI Recovery:        0
+    Maximum MPX:         1
+    Retention Level:     9 (infinity)
+    Number Copies:       1
+    Fail on Error:       0
+    Residence:           (specific storage unit not required)
+    Volume Pool:         (same as policy volume pool)
+    Server Group:        (same as specified for policy)
+    Residence is Storage Lifecycle Policy:         0
+    Daily Windows:
+          Sunday     12:00:00  -->  Sunday     14:00:00
+          Monday     12:00:00  -->  Monday     14:00:00
+          Tuesday    12:00:00  -->  Tuesday    14:00:00
+          Wednesday  12:00:00  -->  Wednesday  14:00:00
+          Thursday   12:00:00  -->  Thursday   14:00:00
+          Friday     12:00:00  -->  Friday     14:00:00
+          Saturday   12:00:00  -->  Saturday   14:00:00
+
+------------------------------------------------------------
+
+Policy Name:       P2CSA_npby12p2clkdb1002_p2clkpd0_OracleRAC_Arch_1W
+
+  Policy Type:         Oracle
+  Active:              yes
+  Effective date:      04/18/2016 11:06:11
+  Block Incremental:   no
+  Mult. Data Streams:  no
+  Client Encrypt:      no
+  Checkpoint:          no
+  Policy Priority:     0
+  Max Jobs/Policy:     Unlimited
+  Disaster Recovery:   0
+  Collect BMR info:    no
+  Residence:           BKMS_lxbj1nbubk11m7_disk
+  Volume Pool:         BKMS
+  Server Group:        *ANY*
+  Keyword:             (none specified)
+  Data Classification:       -
+  Residence is Storage Lifecycle Policy:    no
+  Application Discovery:      no
+  Discovery Lifetime:      0 seconds
+  ASC Application and attributes: (none defined)
+
+  Granular Restore Info:  no
+  Ignore Client Direct:  no
+  Use Accelerator:  no
+  Client List Type: 0
+  Selection List Type: 0
+  Oracle Backup Data File Name Format: NULL
+  Oracle Backup Archived Redo Log File Name Format: NULL
+  Oracle Backup Control File Name Format: NULL
+  Oracle Backup Fast Recovery Area File Name Format: NULL
+  Oracle Backup Set ID: NULL
+  Oracle Backup Data File Arguments: NULL
+  Oracle Backup Archived Redo Log Arguments: NULL
+  Database Backup Share Arguments: NULL
+  HW/OS/Client:  Linux-IA64    RedHat2.6     npby12p2clkdb1002
+
+  Include:  /usr/openv/script/P2CSA_npby12p2clkdb1002_p2clkpd0_OracleRAC_Arch_1W.sh
+            /usr/openv/script/P2CSA_npby12p2clkdb1002_p2clkpd0_OracleRAC_Arch_1W.sh
+
+  Schedule:              Full_4Hours
+    Type:                Full Backup
+    Frequency:           every 4 hours
+     Excluded Dates----------
+        No specific exclude dates entered
+        No exclude days of week entered
+    PFI Recovery:        0
+    Maximum MPX:         1
+    Retention Level:     1 (2 weeks)
+    Number Copies:       1
+    Fail on Error:       0
+    Residence:           (specific storage unit not required)
+    Volume Pool:         (same as policy volume pool)
+    Server Group:        (same as specified for policy)
+    Residence is Storage Lifecycle Policy:         0
+    Daily Windows:
+          Sunday     00:00:00  -->  Saturday   23:59:59
+
+  Schedule:              Default-Application-Backup
+    Type:                Application Backup
+     Excluded Dates----------
+        No specific exclude dates entered
+        No exclude days of week entered
+    PFI Recovery:        0
+    Maximum MPX:         4
+    Retention Level:     1 (2 weeks)
+    Number Copies:       1
+    Fail on Error:       0
+    Residence:           (specific storage unit not required)
+    Volume Pool:         (same as policy volume pool)
+    Server Group:        (same as specified for policy)
+    Residence is Storage Lifecycle Policy:         0
+    Daily Windows:
+          Sunday     00:00:00  -->  Sunday     24:00:00
+          Monday     00:00:00  -->  Monday     24:00:00
+          Tuesday    00:00:00  -->  Tuesday    24:00:00
+          Wednesday  00:00:00  -->  Wednesday  24:00:00
+          Thursday   00:00:00  -->  Thursday   24:00:00
+          Friday     00:00:00  -->  Friday     24:00:00
+          Saturday   00:00:00  -->  Saturday   24:00:00
+
+------------------------------------------------------------

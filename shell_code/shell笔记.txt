@@ -21,3 +21,15 @@ $       以xx结尾
 +       一次或多次
 \{m,n\} 重复m到n次
 cat a.txt|sed -n 's/^xx.//gp' #-n表示关闭默认输出，p表示输出替换行内容
+ifconfig ens33|grep 'inet '|sed  's/^.*inet \(.*\) netmask.*$/\1/g'
+ifconfig ens33|awk -F '[ :]+' '/inet /{print $3}'
+截取指定几行内容
+cat test1.txt |sed -n '/^.*a行/,/^.*b行/p'
+删除指定内容行
+sed '/XXX/d'
+删除文件所有开头行空格
+sed 's/^[[:space:]]*//g'
+删除行首空格
+sed 's/^[ \t]*//g'
+删除行末空格
+sed 's/[ \t]*$//g'

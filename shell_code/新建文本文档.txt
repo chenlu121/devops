@@ -1,0 +1,103 @@
+import re
+PlN=[]
+Act=[]
+PlT=[]
+Eff=[]
+Rsd=[]
+HOC=[]
+Incl=[]
+Sch=[]
+Typ=[]
+CldFrq=[]
+RtL=[]
+DailyWin=[]
+SchNum=[]
+PlNNum=[]
+Schedule=[]
+
+name=''
+act=''
+plt=''
+eff=''
+rsd=''
+hoc=''
+incl=''
+sch=''
+typ=''
+cldfrq=''
+rtl=''
+dailywin=''
+START=False
+with open('D:/imp/test1.txt') as f:
+    for line in f.readlines():
+        if 'Policy Name:' in line:
+            #print(line)
+            name=line
+            START=True
+        if '------------------------------' in line:
+            PlN.append(name.replace("  ", "").replace("\n", "")+'_%%_%%')
+            Act.append(act.replace("  ", "").replace("\n", ""))
+            PlT.append(plt.replace("  ", "").replace("\n", ""))
+            Eff.append(eff.rstrip("\n"))
+            Rsd.append(rsd.replace("  ", "").replace("\n", ""))
+            HOC.append(re.sub(' +', ' ', hoc).lstrip().replace("\n", "")+' %% %%')
+            Incl.append(incl.replace("  ", "").replace("\n", ""))
+            Sch.append(sch.replace("  ", "").rstrip("\n"))
+            Typ.append(typ.replace("  ", "").rstrip("\n"))
+            CldFrq.append(cldfrq.replace("  ", "").rstrip("\n")+';%%;%%')
+            RtL.append(rtl.replace("  ", "").rstrip("\n"))
+            DailyWin.append(dailywin)
+            name=''
+            act=''
+            plt=''
+            eff=''
+            rsd=''
+            hoc=''
+            incl=''
+            sch=''
+            typ=''
+            cldfrq=''
+            rtl=''
+            dailywin=''
+            START=False
+        if START == True:
+            if 'Active:' in line:
+                act=line
+            if 'Policy Type:' in line:
+                plt=line
+            if 'Effective date:' in line:
+                eff=line
+            if line.startswith('  Residence:'):
+                rsd=line
+            if 'HW/OS/Client:' in line:
+                hoc=line
+            if 'Include:' in line:
+                incl=line
+            #TODO 下面可能不唯一
+            if 'Schedule:'in line:
+                sch=sch+line
+            if line.startswith('    Type:'):
+                typ=typ+line
+            if 'Default-Application-Backup' in line:
+                cldfrq=cldfrq+";N/A\n"
+            if 'Calendar sched:' in line:
+                cldfrq=cldfrq+';'+line
+            if 'SPECIFIC DATE' in line:
+                cldfrq=cldfrq+line
+            if 'day, W' in line:
+                cldfrq=cldfrq+line
+            if 'Frequency:' in line:
+                cldfrq=cldfrq+';'+line
+            if 'Retention Level:' in line:
+                rtl=rtl+line
+            if 'Daily Windows' in line:
+                dailywin=dailywin+';'+line+';'
+            if '-->' in line:
+                dailywin=dailywin+line
+f.close()
+print(PlN)
+print(Act)
+print(HOC)
+print(Incl)
+print(Sch)
+print(CldFrq)
