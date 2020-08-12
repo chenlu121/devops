@@ -1,0 +1,2 @@
+- create spfile from pfile;     -->基于pfile创建spfile
+- 
