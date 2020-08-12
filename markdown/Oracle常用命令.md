@@ -1,2 +1,6 @@
 - create spfile from pfile;     -->基于pfile创建spfile
+  - 当spfile和init同时存在，数据库启动优先读取spfile
+- create pfile from spfile;     -->基于spfile创建pfile
+- create spfile[=path] from pfile=[path];
+- select status from v$instance;    -->查询当前数据库状态
 - 
