@@ -3,4 +3,8 @@
 - create pfile from spfile;     -->基于spfile创建pfile
 - create spfile[=path] from pfile=[path];
 - select status from v$instance;    -->查询当前数据库状态
+- 分步启动Oracle
+  - 1. startup nomount
+  - 2. alter database mount    -->查看控制文件是否正常
+- alter database backup controlfile to trace as '/tmp/connn.log'     -->备份控制文件
 - 
