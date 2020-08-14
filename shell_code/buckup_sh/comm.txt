@@ -1,116 +1,116 @@
-pairdisplay -IH10 -CLI -fxcme -g p903ipstc
-pairdisplay -IH10 -CLI -fxcme -g cestc
-pairdisplay -IH10 -CLI -fxcme -g atmmtc
-pairdisplay -IH10 -CLI -fxcme -g csartc
-pairdisplay -IH10 -CLI -fxcme -g umsdicetc
-pairdisplay -IH10 -CLI -fxcme -g bondstc
-pairdisplay -IH10 -CLI -fxcme -g bpsautotc
-pairdisplay -IH10 -CLI -fxcme -g bpsautosanboottc
-pairdisplay -IH10 -CLI -fxcme -g kondortc
-pairdisplay -IH10 -CLI -fxcme -g ipsviptc
-pairdisplay -IH10 -CLI -fxcme -g icc2dtc
-pairdisplay -IH10 -CLI -fxcme -g westc
-pairdisplay -IH10 -CLI -fxcme -g cspstc
-pairdisplay -IH10 -CLI -fxcme -g bocnetgtc
-pairdisplay -IH10 -CLI -fxcme -g bnmstc
-pairdisplay -IH10 -CLI -fxcme -g ermstc
-pairdisplay -IH10 -CLI -fxcme -g icms1tc
-pairdisplay -IH10 -CLI -fxcme -g amlmastc
-pairdisplay -IH10 -CLI -fxcme -g p502infotc
-pairdisplay -IH10 -CLI -fxcme -g p502bcipstc
-pairdisplay -IH10 -CLI -fxcme -g rcpsgwtc
-pairdisplay -IH10 -CLI -fxcme -g x611cnsltc
-pairdisplay -IH10 -CLI -fxcme -g x611hibstc
-pairdisplay -IH10 -CLI -fxcme -g bftstc
-pairdisplay -IH10 -CLI -fxcme -g mciscctc
-pairdisplay -IH10 -CLI -fxcme -g netdrtc
-pairdisplay -IH10 -CLI -fxcme -g twstc
-pairdisplay -IH10 -CLI -fxcme -g p405ippstc
-pairdisplay -IH10 -CLI -fxcme -g p405bstptc
-pairdisplay -IH10 -CLI -fxcme -g p405iccdtc
-pairdisplay -IH10 -CLI -fxcme -g p405ofdctc
-pairdisplay -IH10 -CLI -fxcme -g p405tipstc
-pairdisplay -IH10 -CLI -fxcme -g p501etmstc
-pairdisplay -IH10 -CLI -fxcme -g nfictsmtc
-pairdisplay -IH10 -CLI -fxcme -g p405tipssanboottc
-pairdisplay -IH10 -CLI -fxcme -g p501isttc
-pairdisplay -IH10 -CLI -fxcme -g p501wcbtc
-pairdisplay -IH10 -CLI -fxcme -g p502ibstc
-pairdisplay -IH10 -CLI -fxcme -g ibstc
-pairdisplay -IH10 -CLI -fxcme -g shclogtc
-pairdisplay -IH10 -CLI -fxcme -g p501ermtc
-pairdisplay -IH10 -CLI -fxcme -g p501cetstc
-pairdisplay -IH10 -CLI -fxcme -g smspsmgtc
-pairdisplay -IH10 -CLI -fxcme -g p801dcdstc
-pairdisplay -IH10 -CLI -fxcme -g ibssanboottc
-pairdisplay -IH10 -CLI -fxcme -g p502ibssanboottc
-pairdisplay -IH10 -CLI -fxcme -g icms2tc
-pairdisplay -IH10 -CLI -fxcme -g glstc
-pairdisplay -IH10 -CLI -fxcme -g etmstc
-pairdisplay -IH10 -CLI -fxcme -g netnfstc
-pairdisplay -IH10 -CLI -fxcme -g ebtatc
-pairdisplay -IH10 -CLI -fxcme -g x96dfxpstc
-pairdisplay -IH10 -CLI -fxcme -g bocnettc
-pairdisplay -IH10 -CLI -fxcme -g ciestc
-pairdisplay -IH10 -CLI -fxcme -g p403atmtc
-pairdisplay -IH10 -CLI -fxcme -g nfxstc
-pairdisplay -IH10 -CLI -fxcme -g ebcttc
-pairdisplay -IH10 -CLI -fxcme -g tpcctc
-pairdisplay -IH10 -CLI -fxcme -g bpsftc
-pairdisplay -IH10 -CLI -fxcme -g p302fundtc
-pairdisplay -IH10 -CLI -fxcme -g p403gtstc
-pairdisplay -IH10 -CLI -fxcme -g trptc
-pairdisplay -IH10 -CLI -fxcme -g twsdm1tc
-pairdisplay -IH10 -CLI -fxcme -g ofmstc
-pairdisplay -IH10 -CLI -fxcme -g p403icmstc
-pairdisplay -IH10 -CLI -fxcme -g trpsanboottc
-pairdisplay -IH10 -CLI -fxcme -g hibstc
-pairdisplay -IH10 -CLI -fxcme -g p302gcmstc
-pairdisplay -IH10 -CLI -fxcme -g cibstc
-pairdisplay -IH10 -CLI -fxcme -g p703taptc
-pairdisplay -IH10 -CLI -fxcme -g gcsaptc
-pairdisplay -IH10 -CLI -fxcme -g cibssanboottc
-pairdisplay -IH10 -CLI -fxcme -g p804cdstc
-pairdisplay -IH10 -CLI -fxcme -g cdstc
-pairdisplay -IH10 -CLI -fxcme -g cdssanboottc
-pairdisplay -IH10 -CLI -fxcme -g vapstc
-pairdisplay -IH10 -CLI -fxcme -g ibastc
-pairdisplay -IH10 -CLI -fxcme -g uaptc
-pairdisplay -IH10 -CLI -fxcme -g uapsanboottc
-pairdisplay -IH10 -CLI -fxcme -g bocnet1tc
-pairdisplay -IH10 -CLI -fxcme -g scfstc
-pairdisplay -IH10 -CLI -fxcme -g biitc
-pairdisplay -IH10 -CLI -fxcme -g itgs1tc
-pairdisplay -IH10 -CLI -fxcme -g dfxpstc
-pairdisplay -IH10 -CLI -fxcme -g dfxsstc
-pairdisplay -IH10 -CLI -fxcme -g eccctc
-pairdisplay -IH10 -CLI -fxcme -g swiftlinktc
-pairdisplay -IH10 -CLI -fxcme -g cibptc
-pairdisplay -IH10 -CLI -fxcme -g ums1tc
-pairdisplay -IH10 -CLI -fxcme -g afmstc
-pairdisplay -IH10 -CLI -fxcme -g sfgtc
-pairdisplay -IH10 -CLI -fxcme -g fprstc
-pairdisplay -IH10 -CLI -fxcme -g bocoptc
-pairdisplay -IH10 -CLI -fxcme -g biisanboottc
-pairdisplay -IH10 -CLI -fxcme -g mxtc
-pairdisplay -IH10 -CLI -fxcme -g bocnetzfwgtc
-pairdisplay -IH10 -CLI -fxcme -g gcscdrtc
-pairdisplay -IH10 -CLI -fxcme -g p345bpssanboottc
-pairdisplay -IH10 -CLI -fxcme -g cibstltc
-pairdisplay -IH10 -CLI -fxcme -g etokentc
-pairdisplay -IH10 -CLI -fxcme -g sdcztc
-pairdisplay -IH10 -CLI -fxcme -g rcpstc
-pairdisplay -IH10 -CLI -fxcme -g ipstc
-pairdisplay -IH10 -CLI -fxcme -g ufstc
-pairdisplay -IH10 -CLI -fxcme -g cspbtc
-pairdisplay -IH10 -CLI -fxcme -g rcmstc
-pairdisplay -IH10 -CLI -fxcme -g cosnktc
-pairdisplay -IH10 -CLI -fxcme -g mnptc
-pairdisplay -IH10 -CLI -fxcme -g ocrstc
-pairdisplay -IH10 -CLI -fxcme -g p402epmstc
-pairdisplay -IH10 -CLI -fxcme -g sdczsanboottc
-pairdisplay -IH10 -CLI -fxcme -g mftssanboottc
-pairdisplay -IH10 -CLI -fxcme -g cspbsanboottc
+pairvolchk -IH10 -g p903ipstc -ss
+pairvolchk -IH10 -g cestc -ss
+pairvolchk -IH10 -g atmmtc -ss
+pairvolchk -IH10 -g csartc -ss
+pairvolchk -IH10 -g umsdicetc -ss
+pairvolchk -IH10 -g bondstc -ss
+pairvolchk -IH10 -g bpsautotc -ss
+pairvolchk -IH10 -g bpsautosanboottc -ss
+pairvolchk -IH10 -g kondortc -ss
+pairvolchk -IH10 -g ipsviptc -ss
+pairvolchk -IH10 -g icc2dtc -ss
+pairvolchk -IH10 -g westc -ss
+pairvolchk -IH10 -g cspstc -ss
+pairvolchk -IH10 -g bocnetgtc -ss
+pairvolchk -IH10 -g bnmstc -ss
+pairvolchk -IH10 -g ermstc -ss
+pairvolchk -IH10 -g icms1tc -ss
+pairvolchk -IH10 -g amlmastc -ss
+pairvolchk -IH10 -g p502infotc -ss
+pairvolchk -IH10 -g p502bcipstc -ss
+pairvolchk -IH10 -g rcpsgwtc -ss
+pairvolchk -IH10 -g x611cnsltc -ss
+pairvolchk -IH10 -g x611hibstc -ss
+pairvolchk -IH10 -g bftstc -ss
+pairvolchk -IH10 -g mciscctc -ss
+pairvolchk -IH10 -g netdrtc -ss
+pairvolchk -IH10 -g twstc -ss
+pairvolchk -IH10 -g p405ippstc -ss
+pairvolchk -IH10 -g p405bstptc -ss
+pairvolchk -IH10 -g p405iccdtc -ss
+pairvolchk -IH10 -g p405ofdctc -ss
+pairvolchk -IH10 -g p405tipstc -ss
+pairvolchk -IH10 -g p501etmstc -ss
+pairvolchk -IH10 -g nfictsmtc -ss
+pairvolchk -IH10 -g p405tipssanboottc -ss
+pairvolchk -IH10 -g p501isttc -ss
+pairvolchk -IH10 -g p501wcbtc -ss
+pairvolchk -IH10 -g p502ibstc -ss
+pairvolchk -IH10 -g ibstc -ss
+pairvolchk -IH10 -g shclogtc -ss
+pairvolchk -IH10 -g p501ermtc -ss
+pairvolchk -IH10 -g p501cetstc -ss
+pairvolchk -IH10 -g smspsmgtc -ss
+pairvolchk -IH10 -g p801dcdstc -ss
+pairvolchk -IH10 -g ibssanboottc -ss
+pairvolchk -IH10 -g p502ibssanboottc -ss
+pairvolchk -IH10 -g icms2tc -ss
+pairvolchk -IH10 -g glstc -ss
+pairvolchk -IH10 -g etmstc -ss
+pairvolchk -IH10 -g netnfstc -ss
+pairvolchk -IH10 -g ebtatc -ss
+pairvolchk -IH10 -g x96dfxpstc -ss
+pairvolchk -IH10 -g bocnettc -ss
+pairvolchk -IH10 -g ciestc -ss
+pairvolchk -IH10 -g p403atmtc -ss
+pairvolchk -IH10 -g nfxstc -ss
+pairvolchk -IH10 -g ebcttc -ss
+pairvolchk -IH10 -g tpcctc -ss
+pairvolchk -IH10 -g bpsftc -ss
+pairvolchk -IH10 -g p302fundtc -ss
+pairvolchk -IH10 -g p403gtstc -ss
+pairvolchk -IH10 -g trptc -ss
+pairvolchk -IH10 -g twsdm1tc -ss
+pairvolchk -IH10 -g ofmstc -ss
+pairvolchk -IH10 -g p403icmstc -ss
+pairvolchk -IH10 -g trpsanboottc -ss
+pairvolchk -IH10 -g hibstc -ss
+pairvolchk -IH10 -g p302gcmstc -ss
+pairvolchk -IH10 -g cibstc -ss
+pairvolchk -IH10 -g p703taptc -ss
+pairvolchk -IH10 -g gcsaptc -ss
+pairvolchk -IH10 -g cibssanboottc -ss
+pairvolchk -IH10 -g p804cdstc -ss
+pairvolchk -IH10 -g cdstc -ss
+pairvolchk -IH10 -g cdssanboottc -ss
+pairvolchk -IH10 -g vapstc -ss
+pairvolchk -IH10 -g ibastc -ss
+pairvolchk -IH10 -g uaptc -ss
+pairvolchk -IH10 -g uapsanboottc -ss
+pairvolchk -IH10 -g bocnet1tc -ss
+pairvolchk -IH10 -g scfstc -ss
+pairvolchk -IH10 -g biitc -ss
+pairvolchk -IH10 -g itgs1tc -ss
+pairvolchk -IH10 -g dfxpstc -ss
+pairvolchk -IH10 -g dfxsstc -ss
+pairvolchk -IH10 -g eccctc -ss
+pairvolchk -IH10 -g swiftlinktc -ss
+pairvolchk -IH10 -g cibptc -ss
+pairvolchk -IH10 -g ums1tc -ss
+pairvolchk -IH10 -g afmstc -ss
+pairvolchk -IH10 -g sfgtc -ss
+pairvolchk -IH10 -g fprstc -ss
+pairvolchk -IH10 -g bocoptc -ss
+pairvolchk -IH10 -g biisanboottc -ss
+pairvolchk -IH10 -g mxtc -ss
+pairvolchk -IH10 -g bocnetzfwgtc -ss
+pairvolchk -IH10 -g gcscdrtc -ss
+pairvolchk -IH10 -g p345bpssanboottc -ss
+pairvolchk -IH10 -g cibstltc -ss
+pairvolchk -IH10 -g etokentc -ss
+pairvolchk -IH10 -g sdcztc -ss
+pairvolchk -IH10 -g rcpstc -ss
+pairvolchk -IH10 -g ipstc -ss
+pairvolchk -IH10 -g ufstc -ss
+pairvolchk -IH10 -g cspbtc -ss
+pairvolchk -IH10 -g rcmstc -ss
+pairvolchk -IH10 -g cosnktc -ss
+pairvolchk -IH10 -g mnptc -ss
+pairvolchk -IH10 -g ocrstc -ss
+pairvolchk -IH10 -g p402epmstc -ss
+pairvolchk -IH10 -g sdczsanboottc -ss
+pairvolchk -IH10 -g mftssanboottc -ss
+pairvolchk -IH10 -g cspbsanboottc -ss
 
 
 
