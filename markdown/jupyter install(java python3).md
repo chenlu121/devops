@@ -29,7 +29,7 @@
 
 [^1]:ldconfig是一个动态链接库管理命令，为了让动态链接库为系统所共享,还需运行动态链接库的管理命令–ldconfig。 ldconfig 命令的用途,主要是在默认搜寻目录(/lib和/usr/lib)以及动态库配置文件/etc/ld.so.conf内所列的目录下,搜索出可共享的动态 链接库(格式如前介绍,lib*.so*),进而创建出动态装入程序(ld.so)所需的连接和缓存文件.缓存文件默认为 /etc/ld.so.cache,此文件保存已排好序的动态链接库名字列表.
 * 2）安装Python3.7.4
-`wget https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tgz`
+`wget https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz`
 tar xvf Python-3.8.2.tgz
 cd Python-3.8.2
 ./configure --prefix=/usr/local/python3 --with-openssl=/usr/local/openssl
