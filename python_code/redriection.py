@@ -10,8 +10,8 @@ class Redirection(object):
         return res
 
 if __name__ == '__main__':
-    if not sys.stdin.isatty():
+    if  not sys.stdin.isatty():
         sys.stdin = Redirection(in_obj=sys.stdin, out_obj=sys.stdout)
-        a = input('Enter a string: ')
-        b = input('Enter another string: ')
-        print ('Entered strings are: ', repr(a), 'and', repr(b))
+    a = input('Enter a string: ')
+    b = input('Enter another string: ')
+    print ('Entered strings are: ', repr(a), 'and', repr(b))
