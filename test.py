@@ -14,3 +14,8 @@ def fibonacci(n):
 
 # 示例：打印前10项斐波那契数列
 print(fibonacci(10))
+# 打印99乘法表
+for i in range(1, 10):
+    for j in range(1, i + 1):
+        print(f"{j}×{i}={i * j}", end="\t")
+    print()
